@@ -1,6 +1,8 @@
 public class NumbersLoops{
     public NumbersLoops(){
-  
+      for(int i = 0; i<=10; i++){
+         System.out.println(i);
+      }
     }
   
     public int digitSum(int num){
@@ -16,6 +18,4 @@ public class NumbersLoops{
     public int palindromeCount(int start, int finish){
       return 0;
     }
-  
-  
   }
