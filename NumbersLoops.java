@@ -6,11 +6,18 @@ public class NumbersLoops{
     }
   
     public int digitSum(int num){
-      return 0;
+      return (num*(num+1))/2;
     }
   
     public int reverseNum(int num){
-      return 0;
+      int length = String.valueOf(Math.abs(num)).length();
+      int x=num;
+      int b=0;
+      for(int j = 1;j<=length; j++){
+        b += (x%10) * (Math.pow(10,(length-j)));
+        x=x/10; 
+      }
+      return b;
     }
     // EX:
     // Start 100, Finish 125
