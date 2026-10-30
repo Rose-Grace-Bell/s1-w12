@@ -4,7 +4,7 @@ public class NumbersLoops{
          System.out.println(i);
       }
     }
-  
+
     public int digitSum(int num){
       return (num*(num+1))/2;
     }
